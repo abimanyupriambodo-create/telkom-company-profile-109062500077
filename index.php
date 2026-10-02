@@ -14,20 +14,24 @@ require 'includes/header.php';
             <p class="lead">
                 Website simulasi company profile untuk praktikum
                 Pengembangan Aplikasi Web.
-            </p>
+             </p>
 
-            <div class="hero-actions">
-                <a href="profile.php" class="btn btn-primary">
-                    Lihat Profil
-                </a>
+             <div class="hero-actions">
+              <a href="profile.php" class="btn btn-primary">
+              Lihat Profil
+              </a>
 
-                <a href="programs.php" class="btn btn-secondary">
-                    Program Studi
-                </a>
+               <a href="programs.php" class="btn btn-secondary">
+                Program Studi
+              </a>
+
+              <a href="news.php" class="btn btn-secondary">
+              Berita
+               </a>
+              </div>
             </div>
-        </div>
 
-        <div class="hero-card">
+         <div class="hero-card">
             <span class="hero-card-label">Praktikum</span>
             <h2>Web Development</h2>
             <p>

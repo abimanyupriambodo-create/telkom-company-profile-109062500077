@@ -146,6 +146,15 @@ h1 {
     color: #ffffff;
 }
 
+.btn-secondary {
+    background: var(--primary);
+    color: #ffffff;
+}
+
+.btn-secondary:hover {
+    background: var(--primary-dark);
+}
+
 .btn-primary:hover {
     background: var(--primary-dark);
 }
