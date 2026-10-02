@@ -150,6 +150,22 @@ h1 {
     background: var(--primary-dark);
 }
 
+.btn-outline {
+    display: inline-block;
+    padding: 11px 16px;
+    border: 1px solid var(--primary);
+    border-radius: 9px;
+    color: var(--primary);
+    background: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.btn-outline:hover {
+    background: var(--primary);
+    color: #ffffff;
+}
+
 .grid-3 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);

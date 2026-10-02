@@ -41,7 +41,7 @@ $berita = $stmt->fetchAll(PDO::FETCH_ASSOC);
                         <?= htmlspecialchars($item['ringkasan']) ?>
                     </p>
 
-                    <a href="detail-berita.php?id=<?= $item['id'] ?>" class="btn btn-primary">
+                    <a href="news_detail.php?id=<?= $item['id'] ?>" class="btn btn-primary">
                         Baca Selengkapnya
                     </a>
 
