@@ -1,4 +1,4 @@
-```php
+
 <?php
 require_once 'config/database.php';
 
@@ -19,13 +19,11 @@ if (
     exit('Data tidak valid. Silakan kembali dan periksa input.');
 }
 
-$stmt = $conn->prepare(
+$stmt = $pdo->prepare(
     "INSERT INTO pesan (nama, email, pesan) VALUES (?, ?, ?)"
 );
 
-$stmt->bind_param('sss', $nama, $email, $pesan);
-$stmt->execute();
+$stmt->execute([$nama, $email, $pesan]);
 
 header('Location: contact.php?success=1');
 exit;
-```
