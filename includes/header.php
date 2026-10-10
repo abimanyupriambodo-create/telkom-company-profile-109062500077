@@ -33,7 +33,7 @@ $currentPage = basename($_SERVER['PHP_SELF']);
             </a>
 
             <a class="<?= $currentPage === 'profile.php' ? 'active' : '' ?>"href="profile.php">
-                Tentang Kampus
+                Profil
                 
             </a>
 
