@@ -24,6 +24,15 @@ require 'includes/header.php';
 
         <h2>Tujuan proyek</h2>
 
+        ```php
+       <h2>Fokus Pembelajaran</h2>
+
+      <ul>
+      <li>Memahami struktur dan pengembangan halaman web menggunakan PHP Native.</li>
+       <li>Mengelola dan menampilkan data menggunakan database MySQL.</li>
+       <li>Menggunakan Git dan GitHub untuk mencatat serta mengelola perubahan kode.</li>
+       </ul>
+
         <p>
             Proyek menampilkan profil, program studi, berita, serta formulir kontak.
             Data program studi dan berita dibaca dari database, sedangkan pesan
